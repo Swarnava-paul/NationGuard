@@ -1,0 +1,14 @@
+{
+  "name": "nationguard",
+  "version": "9.0.0",
+  "description": "NationGuard is a tech-enabled national security solution designed to help Indian authorities monitor and track foreign nationals who enter India legally via visas but illegally overstay beyond their visa expiry.The system empowers BSF Officers, State Police, and the Home Ministry to collectively manage real-time immigration data, using facial recognition, QR-based visa scanning, and AI-driven alerts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "India"
+  ],
+  "author": "SWARNAVA PAUL",
+  "license": "ISC"
+}
