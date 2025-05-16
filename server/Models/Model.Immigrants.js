@@ -10,7 +10,7 @@ const ImmigrantsSchema = new mongoose.Schema({
     ReasonOfCome : { type : String, required: true},
     LastSeenLocations : { type : [String], required: true},
     EnteredByBorderName :{ type : String, required: true},
-    EntryByBsfOfficerId :{ type : mongoose.Schema.Types.ObjectId, required: true , ref : 'Bsf-officer'},
+    EntryByBsfOfficerId :{ type : mongoose.Schema.Types.ObjectId, required: true , ref : 'Bsfofficer'},
     EnteredByState : {type : String, required: true},
     EnteredTime : { type : Date , default : ()=> Date.now()}, 
 },{versionKey: false});

@@ -6,6 +6,7 @@ const districtsPoliceHeadsSchema = new mongoose.Schema({
     State : {type : String, required: true},
     Email : {type : String, required: true},
     Password: {type : String, required: true},
+    VerificationPin : {type : String, required: true},
     Role : {type : String, default : 'DISTRICT-POLICE-HEAD'},
 },{versionKey: false, timestamps: true});
 

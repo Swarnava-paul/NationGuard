@@ -8,7 +8,7 @@ const BsfOfficerSchema = new mongoose.Schema({
       Password : {type:String, required: true},
       ServingBorderOfficeName : {type: String, required: true},
       ServingBorderOfficeId : {type: mongoose.Schema.Types.ObjectId,
-      required: true , ref : "Bsf-border-office"},
+      required: true , ref : "Bsfborderoffice"},
       FaceEmbedding : {type : [Number] , required : true},
       ProfileImage : {type : String , required : true},
       Rank : {type: String, required: true},
