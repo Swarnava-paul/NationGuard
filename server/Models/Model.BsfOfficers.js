@@ -18,5 +18,5 @@ const BsfOfficerSchema = new mongoose.Schema({
 
 },{versionKey: false, timestamps: true});
 
-const BsfOfficerModel = mongoose.model('Bsf-officer', BsfOfficerSchema);
+const BsfOfficerModel = mongoose.model('Bsfofficer', BsfOfficerSchema);
 module.exports = BsfOfficerModel;

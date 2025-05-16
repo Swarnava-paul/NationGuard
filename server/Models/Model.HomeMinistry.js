@@ -8,7 +8,7 @@ const HomeMinistrySchema = new mongoose.Schema({
     Role : {type: String, default : 'HOME-MINISTRY'},
 },{versionKey: false, timestamps: true});
 
-const HomeMinistryModel = mongoose.model('Home-ministry', HomeMinistrySchema);
+const HomeMinistryModel = mongoose.model('Hm', HomeMinistrySchema);
 
 module.exports = HomeMinistryModel;
 // This model represents the Home Ministry user in the database.

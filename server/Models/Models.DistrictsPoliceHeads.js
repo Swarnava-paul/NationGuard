@@ -9,5 +9,5 @@ const districtsPoliceHeadsSchema = new mongoose.Schema({
     Role : {type : String, default : 'DISTRICT-POLICE-HEAD'},
 },{versionKey: false, timestamps: true});
 
-const DistrictsPoliceHeads = mongoose.model('District-police-head-office', districtsPoliceHeadsSchema);
+const DistrictsPoliceHeads = mongoose.model('Districtpoliceheadoffice', districtsPoliceHeadsSchema);
 module.exports = DistrictsPoliceHeads;

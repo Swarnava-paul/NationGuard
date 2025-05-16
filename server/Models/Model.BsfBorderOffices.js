@@ -12,5 +12,5 @@ const BsfBorderOfficesSchema = new mongoose.Schema({
       Role : {type: String, default : 'BSF-BORDER-OFFICE'},
 },{versionKey: false, timestamps: true});
 
-const BsfBorderOfficeModel = mongoose.model('Bsf-border-office', BsfBorderOfficesSchema);
+const BsfBorderOfficeModel = mongoose.model('Bsfborderoffice', BsfBorderOfficesSchema);
 module.exports = BsfBorderOfficeModel;
